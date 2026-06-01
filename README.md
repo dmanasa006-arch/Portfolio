@@ -54,17 +54,6 @@ This portfolio is built to:
 ---
 
 ## 🌐 Live Demo
-👉 https://yourusername.github.io/portfolio
-
+👉 https://github.com/dmanasa006-arch/Portfolio.git
 ---
 
-## 📸 Preview
-*(Add screenshots of your portfolio here)*
-
----
-
-## ⚙️ How to Run Locally
-```bash
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
-open index.html
