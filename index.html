@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>https://file+.vscode-resource.vscode-cdn.net/Users/damadalimanasa/Downloads/myphoto.jpg?version%3D1780239692251
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+        }
+        /* HEADER */
+        
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #1e3a8a, #0f172a);
+        }
+        
+        header img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-top: 10px;
+        }
+        /* ANIMATION TEXT */
+        
+        .typing {
+            font-size: 22px;
+            margin-top: 10px;
+            color: #38bdf8;
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 2px solid white;
+            width: 0;
+            animation: typing 4s steps(30, end) forwards, blink 0.8s infinite;
+        }
+        
+        @keyframes typing {
+            from {
+                width: 0
+            }
+            to {
+                width: 100%
+            }
+        }
+        
+        @keyframes blink {
+            50% {
+                border-color: transparent
+            }
+        }
+        /* SECTIONS */
+        
+        section {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: #111827;
+            padding: 20px;
+            border-radius: 12px;
+        }
+        
+        h2 {
+            color: #38bdf8;
+            border-left: 5px solid #38bdf8;
+            padding-left: 10px;
+        }
+        /* CARDS */
+        
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        
+        .card {
+            background: #1f2937;
+            padding: 15px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        
+        .card:hover {
+            transform: scale(1.05);
+            background: #334155;
+        }
+        /* SKILL BARS */
+        
+        .skill {
+            margin: 10px 0;
+        }
+        
+        .bar {
+            height: 10px;
+            background: #334155;
+            border-radius: 10px;
+        }
+        
+        .fill {
+            height: 10px;
+            background: #38bdf8;
+            border-radius: 10px;
+        }
+        /* LINKS */
+        
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #020617;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+
+        <div class="typing">B.Tech Student | Python Developer | Web Developer</div>
+
+
+        <img src="./myphoto.jpg" alt="My Photo">
+        <!-- ABOUT -->
+        <section>
+            <h2>About Me</h2>
+            <p>
+                I am a passionate B.Tech student interested in software development, web development, and building real-world projects. I enjoy learning new technologies and improving my coding skills.
+            </p>
+        </section>
+
+        <!-- PERSONAL DETAILS -->
+        <section>
+            <h2>Personal Details</h2>
+            <ul>
+                <li>Name:Dhamodala Manasa</li>
+                <li>Email:dmanasa006@gmail.com</li>
+                <li>Location:Tirupati,Andhra Pradesh,India</li>
+                <li>Phone: +91 8179376011</li>
+            </ul>
+        </section>
+
+        <!-- EDUCATION -->
+        <section>
+            <h2>Education</h2>
+            <div class="card-container">
+                <div class="card">🎓 B.Tech - Siddharth Institute Of Engineering & Technology</div>
+                <div class="card">📘 Intermediate - Sri Chaitanya Girls College</div>
+                <div class="card">🏫 School - Crescendo E.M High School</div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <div class="card-container">
+
+            <div class="card">⚡ Python (Intermediate)</div>
+            <div class="card">🌐 HTML & CSS (Advanced)</div>
+            <div class="card">🟡 JavaScript (Beginner)</div>
+            <div class="card">🗄️ SQL (Intermediate)</div>
+            <div class="card">🔧 Git & GitHub (Intermediate)</div>
+            <div class="card">🔧 problem-solving (Advanced)</div>
+            <div class="card">🔧 Communication (Advanced)</div>
+            <div class="card">🔧 Team work (Advanced)</div>
+        </div>
+        <!-- PROJECTS -->
+        <section>
+            <h2>Projects</h2>
+
+            <div class="card-container">
+                <div class="card">💻 Student Registration System (Python + SQL)</div>
+                <div class="card">🔐 Login Page Web App (HTML + CSS)</div>
+                <div class="card">🌐 Portfolio Website (This Project)</div>
+            </div>
+        </section>
+
+        <!-- HOBBIES -->
+        <section>
+            <h2>Hobbies</h2>
+            <div class="card-container">
+                <div class="card">🎧 Listening Music</div>
+                <div class="card">💻 Coding</div>
+                <div class="card">📺 Tech Videos</div>
+                <div class="card">📚 Learning New Skills</div>
+            </div>
+        </section>
+
+        <!-- STRENGTHS -->
+        <section>
+            <h2>Strengths</h2>
+            <div class="card-container">
+                <div class="card">⚡ Quick Learner</div>
+                <div class="card">🔥 Hard Working</div>
+                <div class="card">🧠 Problem Solver</div>
+                <div class="card">🎯 Optimistic</div>
+            </div>
+        </section>
+
+        <!-- WEAKNESS -->
+        <section>
+            <h2>Weakness</h2>
+            <div class="card">
+                ⏳ Sometimes I focus too much on perfection, but I am improving my speed and efficiency.
+            </div>
+        </section>
+
+        <!-- ACHIEVEMENTS -->
+        <section>
+            <h2>Achievements</h2>
+            <div class="card-container">
+                <div class="card">🏆 Completed Python Course</div>
+                <div class="card">📊 Built Mini Projects</div>
+                <div class="card">🚀 Learning Git & GitHub</div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section>
+            <h2>📞8179376011</h2>
+            <p>Email:📩dmanasa006@gmail.com</p>
+
+            <p>
+                <a href="https://github.com/dmanasa006-arch" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/in/dhamodala-manasa-28468b306" target="_blank">LinkedIn</a>
+            </p>
+        </section>
+
+        <footer>
+            © 2026 Manasa | Built with HTML & CSS
+        </footer>
+
+</body>
+
+</html>
